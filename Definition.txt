@@ -1,0 +1,3 @@
+React-Native: It is an open source Framework for building native Android and IOS applications using React.
+--> Javascript to access platform specific API (such as camera and push notification)
+--> React components to define the appearance and behaviour of user Interface.
