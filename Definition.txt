@@ -1,5 +1,5 @@
 Create React Native Project
-1. npx create--expo-app --template
+1. npx create-expo-app --template
 
 React-Native: It is an open source Framework for building native Android and IOS applications using React.
 --> Javascript to access platform specific API (such as camera and push notification)
@@ -55,3 +55,10 @@ Cross Axis: Left to Right
 5. Dimension API: It provides the access to the Device size
 Drawback: Dimension values does not update dynamically
 useWindowDimension(): Provide Device size
+
+6. Plateform Specific Code: 
+     6.1. When developing cross plateform app, maximizing code reuse is a priority. There situation where it becomes neccessary to tailor your code to specific plateforms . It offer tow approaches
+     6.1.1: Plateform Modules
+     6.1.2: Plateform specifix file extension: 
+
+7. FlatList: It renders only the item currently in view, making it hightly perfomant for long list
